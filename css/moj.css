@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+element.style {
+	width: 35%;
+	text-align: left;
+}
+.easy-table th {
+	font-size: 15.9px;
+	letter-spacing: 1px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #1C2C72;
+	background-color: aliceblue;
+}
+
+#kredit {
+	width: 520px;
+	height: 370px;	
+}
+
+#logo {
+	margin-left: 100px;
+}
+
+#navigacija {
+	margin-right: auto;
+}
+
+body {
+	background-image: url("../slike/woodbg.jpg"); 
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+
+#myModal {
+	margin-top: 50px;
+}
+
+#onama {
+	color: #FE0601; 
+	font-size: 23px;
+	margin-top: 150px; 
+	text-align: justify;
+	opacity: 0.4;
+	font-family: fantasy, cursive, serif;
+}
+
+#naslov {
+	font: italic small-caps bold 27px Georgia, Garamond, serif
+}
+
+#artikli {
+	width: 50px;
+	height: 100px;
+	align-content: center;
+}
+
+h4 {
+	text-align: center;
+}
+
+#slika {
+	max-width: 100%; 
+	height: 170px;
+}
+
+#cijena {
+	text-align: center; 
+	margin-top: 10px;
+}
+
+#kupi {
+	max-width: 100%;
+	margin-left: auto;
+}
+
+#pregled {
+	margin-left: 35px;
+	max-width: 100%;
+}
+
+#pagination {
+	text-align: center; 
+	margin-bottom: 50px;
+}
+
+/* FOOTER */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}

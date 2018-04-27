@@ -1,0 +1,3 @@
+<footer class="navbar navbar-default navbar-fixed-bottom" style="text-align: center;">
+	<h5>Copyright &copy; 2016 Salon Namještaja</h5>
+</footer>

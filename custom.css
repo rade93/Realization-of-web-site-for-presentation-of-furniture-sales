@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+element.style {
+	width: 35%;
+	text-align: left;
+}
+.easy-table th {
+	font-size: 15.9px;
+	letter-spacing: 1px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #1C2C72;
+	background-color: aliceblue;
+}
+.scrollable-menu {
+    height: auto;
+    max-height: 180px;
+    overflow-x: hidden;
+}
+/*--- PENZIONERI ---------------------------------------------------------------------------*/
+#kredit {
+	width: 520px;
+	height: 100px;
+	border-radius: 10px;
+}
+#naslov {
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+}
+#podnaslov {
+	font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
+}
+
+#tekst {
+	font-family: Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+	font-size: 14pt;
+}
+#rata {
+	margin-top: 100px;
+	text-align: center;
+	margin-right: 100px;
+	font-size: 30pt;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.ponuda {
+	float: right;
+}
+#slika-kredit {
+	width: 520px;
+	height: 250px;
+	border-radius: 10px;
+	margin: 200px;
+}
+#podnaslov1 {
+	font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
+	margin-left: 500px;
+}
+#podnaslov2 {
+	font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.prva {
+	margin-left: 300px;
+}
+.prvi_naslov {
+	margin-left: 300px;
+	font-family: Georgia, serif;
+}
+.zadnja {
+	margin-left: 300px;
+}
+/*--- PENZIONERI KRAJ ---------------------------------------------------------------------*/
+
+/*--- SINDIKALNA PRODAJA ---------------------------------------------------------------------*/
+.DivServisLevoIspis {
+	color: white;
+}
+#sind {
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	font-size: 16pt;
+	margin-left: 25px;
+}
+/*--- WEDDING -----------------------------------------------------------------------------*/
+#glavniNaslov {
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+}
+#tijelo {
+	background-color: sienna; 
+	background-size: auto; 
+}
+/* KARTICA ------------------------------------------------*/
+/* Padding - just for asthetics on Bootsnipp.com */
+body { margin-top:20px; }
+
+/* CSS for Credit Card Payment form */
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}

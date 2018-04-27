@@ -1,0 +1,168 @@
+element.style {
+	width: 35%;
+	text-align: left;
+}
+.easy-table th {
+	font-size: 15.9px;
+	letter-spacing: 1px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #1C2C72;
+	background-color: aliceblue;
+}
+
+#kredit {
+	width: 520px;
+	height: 370px;	
+}
+
+#logo {
+	margin-left: 100px;
+}
+
+#navigacija {
+	margin-right: auto;
+}
+
+body {
+	background-image: url("../slike/woodbg.jpg"); 
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+
+#myModal {
+	margin-top: 50px;
+}
+
+#onama {
+	color: #FE0601; 
+	font-size: 23px;
+	margin-top: 150px; 
+	text-align: justify;
+	opacity: 0.4;
+	font-family: fantasy, cursive, serif;
+}
+
+#naslov {
+	font: italic small-caps bold 27px Georgia, Garamond, serif
+}
+
+#artikli {
+	width: 50px;
+	height: 100px;
+	align-content: center;
+}
+
+h4 {
+	text-align: center;
+}
+
+#slika {
+	max-width: 100%;
+}
+
+#cijena {
+	text-align: center; 
+	margin-top: 10px;
+}
+
+#kupi {
+	max-width: 100%;
+	margin-left: auto;
+}
+
+#pregled {
+	margin-left: 35px;
+	max-width: 100%;
+}
+
+nav #pagination {
+	text-align: center; 
+	margin-bottom: 50px;
+}
+
+/* FOOTER */
+.footer {
+    position: float;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 50px;
+    margin: auto;
+    vertical-align: middle;
+}
+
+/* ARTIKLI */
+a #kupi {
+	margin-left: 90px;
+}
+
+/* Style the Image Used to Trigger the Modal */
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
